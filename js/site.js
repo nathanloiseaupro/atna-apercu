@@ -1,4 +1,6 @@
 (function () {
+  var en = document.documentElement.lang === 'en';
+  var MENU = en ? 'Menu' : 'Menu', FERMER = en ? 'Close' : 'Fermer';
   document.documentElement.classList.remove('sans-js');
   var entete = document.querySelector('.entete');
   function suivre() { entete.classList.toggle('plein', window.scrollY > 60); }
@@ -6,10 +8,10 @@
   window.addEventListener('scroll', suivre, { passive: true });
 
   var ouvrir = document.querySelector('.ouvrir'), menu = document.getElementById('menu');
-  function fermer() { menu.classList.remove('ouvert'); ouvrir.textContent = 'Menu'; ouvrir.setAttribute('aria-expanded', 'false'); }
+  function fermer() { menu.classList.remove('ouvert'); ouvrir.textContent = MENU; ouvrir.setAttribute('aria-expanded', 'false'); }
   ouvrir.addEventListener('click', function () {
     if (menu.classList.contains('ouvert')) return fermer();
-    menu.classList.add('ouvert'); ouvrir.textContent = 'Fermer'; ouvrir.setAttribute('aria-expanded', 'true');
+    menu.classList.add('ouvert'); ouvrir.textContent = FERMER; ouvrir.setAttribute('aria-expanded', 'true');
   });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fermer(); });
 

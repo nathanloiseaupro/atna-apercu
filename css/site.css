@@ -50,6 +50,7 @@ p a, .lien { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 .entete nav a.appel { color: var(--ivoire); }
 
 .ouvrir { display: none; }
+.entete nav a.langue { margin-left: -8px; padding-left: 20px; border-left: 1px solid oklch(0.96 0.01 80 / .35); border-bottom: 0; }
 
 /* Premier écran de l'accueil : la photo en plein écran */
 .une { position: relative; height: 100vh; height: 100svh; min-height: 640px; overflow: hidden; background: var(--nuit); }
@@ -215,6 +216,13 @@ p a, .lien { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 .principe b { display: block; font-weight: 600; }
 .principe p { margin-top: 8px; color: var(--encre-douce); font-size: 15px; }
 
+/* Pages de services */
+.service-grille { display: grid; grid-template-columns: 1fr 1fr; gap: 56px 72px; max-width: 1100px; }
+.service-grille h2 { font-size: clamp(26px, 2.2vw, 34px); }
+.service-grille p { margin-top: 14px; color: var(--encre-douce); max-width: 46ch; }
+.liens-services { list-style: none; padding: 0; margin-top: 56px; display: flex; flex-wrap: wrap; gap: 12px 36px; }
+.liens-services a { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
+
 /* Partenaires */
 .partenaires { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 .partenaires div { border-top: 1px solid var(--encre); padding-top: 18px; }
@@ -299,7 +307,7 @@ footer .bas { display: flex; justify-content: space-between; gap: 24px; padding-
   .etapes p { font-size: 14px; }
   .grille-projets { grid-template-columns: 1fr; grid-auto-rows: 280px; }
   .carte { grid-column: auto !important; grid-row: auto !important; }
-  .agence-accueil, .premier-soir, .questions, .contact, form, .fiche, .personnes, .implantations, .offres, .partenaires { grid-template-columns: 1fr; gap: 32px; }
+  .service-grille, .agence-accueil, .premier-soir, .questions, .contact, form, .fiche, .personnes, .implantations, .offres, .partenaires { grid-template-columns: 1fr; gap: 32px; }
   .premier-soir .img { height: 300px; }
   .premier-soir .texte { padding: 40px var(--marge); }
   .galerie { grid-template-columns: 1fr; }
