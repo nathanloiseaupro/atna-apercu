@@ -50,7 +50,17 @@ p a, .lien { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 .entete nav a.appel { color: var(--ivoire); }
 
 .ouvrir { display: none; }
-.entete nav a.langue { margin-left: -8px; padding-left: 20px; border-left: 1px solid oklch(0.96 0.01 80 / .35); border-bottom: 0; }
+.langues { display: flex; gap: 14px; margin-left: -8px; padding-left: 22px; border-left: 1px solid oklch(0.96 0.01 80 / .35); }
+.entete nav .langues a { opacity: .65; border-bottom: 0; }
+.entete nav .langues a:hover, .entete nav .langues a[aria-current] { opacity: 1; color: var(--ivoire); border-bottom: 0; }
+.entete nav .langues a[aria-current] { color: var(--cuivre); }
+/* Page d'attente de la version arabe */
+.attente-arabe { min-height: 100vh; display: grid; place-items: center; background: var(--nuit-2); color: var(--ivoire); text-align: center; padding: 40px 20px; }
+.attente-arabe img { width: 170px; height: auto; margin: 0 auto 48px; }
+.attente-arabe h1 { font-family: "Mulish", sans-serif; font-weight: 400; font-size: clamp(28px, 3vw, 40px); }
+.attente-arabe p { margin: 20px auto 0; max-width: 40ch; color: var(--clair-doux); line-height: 1.9; }
+.attente-arabe .choix { display: flex; justify-content: center; gap: 28px; margin-top: 40px; }
+.attente-arabe .choix a { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 
 /* Premier écran de l'accueil : la photo en plein écran */
 .une { position: relative; height: 100vh; height: 100svh; min-height: 640px; overflow: hidden; background: var(--nuit); }
@@ -290,6 +300,7 @@ footer .bas { display: flex; justify-content: space-between; gap: 24px; padding-
   .une .texte { right: var(--marge); bottom: 88px; }
   .une h1 { font-size: 34px; }
   .pays-bande { justify-content: flex-start; bottom: 28px; }
+  .langues { margin: 12px 0 0; padding: 18px 0 0; border-left: 0; border-top: 1px solid oklch(0.96 0.01 80 / .25); gap: 24px; }
   .intro-calme { padding: 90px var(--marge) 80px; }
   .actions { flex-direction: column; align-items: start; gap: 18px; }
   .pays-bande { gap: 12px; letter-spacing: 0.16em; font-size: 11px; }
