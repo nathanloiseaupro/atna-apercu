@@ -67,9 +67,9 @@ p a, .lien { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 .une { position: relative; height: 100vh; height: 100svh; min-height: 640px; overflow: hidden; background: var(--nuit); }
 
 .une::after { content: ""; position: absolute; inset: 0; background: radial-gradient(130% 100% at 0% 100%, oklch(0.17 0.035 258 / .82), oklch(0.17 0.035 258 / .35) 55%, transparent 82%); }
-.une .texte { position: absolute; z-index: 2; left: var(--marge); bottom: 120px; color: var(--ivoire); max-width: 560px; }
+.une .texte { position: absolute; z-index: 2; left: var(--marge); bottom: 110px; color: var(--ivoire); max-width: 680px; }
 .surtitre { font-family: "Italiana", serif; font-size: 22px; color: var(--cuivre); }
-.une h1 { font-size: clamp(38px, 3.6vw, 56px); line-height: 1.12; text-wrap: balance; }
+.une h1 { font-size: clamp(42px, 4.6vw, 72px); line-height: 1.1; text-wrap: balance; }
 .une p { margin-top: 20px; max-width: 40ch; color: oklch(0.9 0.015 80); }
 .actions { margin-top: 34px; display: flex; gap: 28px; align-items: center; flex-wrap: wrap; }
 .pays-bande { position: absolute; z-index: 2; left: var(--marge); right: var(--marge); bottom: 36px; display: flex; justify-content: flex-end; gap: 22px; font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--ivoire); }
@@ -299,7 +299,7 @@ footer .bas { display: flex; justify-content: space-between; gap: 24px; padding-
   .une { min-height: 560px; }
   .une::after { background: linear-gradient(oklch(0.18 0.04 258 / .35), oklch(0.18 0.04 258 / .8) 70%); }
   .une .texte { right: var(--marge); bottom: 88px; }
-  .une h1 { font-size: 34px; }
+  .une h1 { font-size: 40px; }
   .pays-bande { justify-content: flex-start; bottom: 28px; }
   .langues { margin: 12px 0 0; padding: 18px 0 0; border-left: 0; border-top: 1px solid oklch(0.96 0.01 80 / .25); gap: 24px; }
   .intro-calme { padding: 90px var(--marge) 80px; }
