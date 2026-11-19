@@ -1,6 +1,6 @@
 (function () {
-  var en = document.documentElement.lang === 'en';
-  var MENU = en ? 'Menu' : 'Menu', FERMER = en ? 'Close' : 'Fermer';
+  var langue = document.documentElement.lang;
+  var MENU = { ar: 'القائمة' }[langue] || 'Menu', FERMER = { en: 'Close', ar: 'إغلاق' }[langue] || 'Fermer';
   document.documentElement.classList.remove('sans-js');
   var entete = document.querySelector('.entete');
   function suivre() { entete.classList.toggle('plein', window.scrollY > 60); }
@@ -24,6 +24,16 @@
       });
     });
   });
+
+  // Formulaire de contact : sujet transmis par l'adresse (maisons à vendre) et message d'erreur au retour
+  var params = new URLSearchParams(location.search), sujet = document.getElementById('sujet');
+  if (sujet && params.get('sujet')) {
+    sujet.value = params.get('sujet').slice(0, 80);
+    var choix = document.querySelector('#type [data-sujet="maison"]');
+    if (choix && sujet.value.indexOf('maison') > -1) choix.selected = true;
+  }
+  var erreur = document.getElementById('erreur');
+  if (erreur && params.get('erreur')) erreur.hidden = false;
 
   var c = document.querySelectorAll('.apparait');
   if (!('IntersectionObserver' in window)) { c.forEach(function (e) { e.classList.add('vu'); }); return; }

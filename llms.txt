@@ -1,0 +1,25 @@
+# ATNA & Associés
+
+> Agence d’architecture et d’architecture d’intérieur fondée en 2000. Projets haut de gamme clés en main en France, au Maroc et à l’international, conduits de l’étude du terrain à la remise des clés, mobilier, linge et vaisselle compris.
+
+Siège : 47 boulevard Carnot, 21000 Dijon. Agence à Liffré, près de Rennes. Agences au Maroc : Marrakech, Agadir, Safi.
+Version anglaise : https://nathanloiseaupro.github.io/atna-apercu/en/
+
+## Services
+- [L’expérience ATNA](https://nathanloiseaupro.github.io/atna-apercu/experience-atna/) : ATNA & Associés conduit votre projet clés en main : terrain, conception, autorisations, construction, aménagement intérieur et extérieur, jusqu’au premier dîner.
+- [Architecture intérieure et décoration](https://nathanloiseaupro.github.io/atna-apercu/architecture-interieure/) : Architecture intérieure et décoration par ATNA & Associés : aménagements sur mesure, mobilier, décoration, linge et vaisselle, pour un lieu prêt à vivre.
+- [Rénovation et extension](https://nathanloiseaupro.github.io/atna-apercu/renovation-extension/) : Rénovation complète, extension ou réaménagement : ATNA & Associés transforme les bâtiments existants avec le même suivi que pour un projet neuf.
+
+## Projets
+- [Villa contemporaine, bois et béton](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-contemporaine-bois-et-beton/) : Résidence privée, projet.
+- [Villa à pignon vitré](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-a-pignon-vitre/) : Résidence privée, projet.
+- [Villa, pierre et enduit](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-pierre-et-enduit/) : Résidence privée, projet.
+- [Villa, pierre et bois](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-pierre-et-bois/) : Résidence privée, projet.
+- [Maison en bois](https://nathanloiseaupro.github.io/atna-apercu/projets/maison-en-bois/) : Résidence privée, projet.
+- [Restaurant de plage](https://nathanloiseaupro.github.io/atna-apercu/projets/restaurant-de-plage/) : Restauration, projet.
+- [Arena d’Évreux](https://nathanloiseaupro.github.io/atna-apercu/projets/arena-evreux/) : Équipement sportif, lauréat du concours.
+
+## Pages utiles
+- [L’agence](https://nathanloiseaupro.github.io/atna-apercu/agence/)
+- [Maisons à vendre](https://nathanloiseaupro.github.io/atna-apercu/maisons-a-vendre/)
+- [Contact](https://nathanloiseaupro.github.io/atna-apercu/contact/)
