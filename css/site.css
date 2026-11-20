@@ -310,9 +310,16 @@ footer .bas { display: flex; justify-content: space-between; gap: 24px; padding-
   .langues { margin: 12px 0 0; padding: 18px 0 0; border-left: 0; border-top: 1px solid oklch(0.96 0.01 80 / .25); gap: 24px; }
   .intro-calme { padding: 90px var(--marge) 80px; }
   .actions { flex-direction: column; align-items: start; gap: 18px; }
-  .pays-bande { gap: 12px; letter-spacing: 0.16em; font-size: 11px; }
-  .bandeau { height: 52vh; min-height: 380px; }
-  .bandeau .texte { bottom: 40px; }
+  .pays-bande { gap: 22px; letter-spacing: 0.16em; font-size: 13px; }
+  .pays-bande a { padding: 10px 0; }
+  footer .bas a { padding: 10px 0; }
+  footer li a { display: inline-block; padding: 4px 0; }
+  /* Le bandeau s'agrandit avec son contenu (titre, texte, onglets) au lieu de le faire passer sous le menu */
+  .bandeau { height: auto; min-height: 400px; display: flex; align-items: flex-end; padding: 120px var(--marge) 40px; }
+  .bandeau > picture img, .bandeau > img { position: absolute; inset: 0; }
+  .bandeau .texte { position: relative; z-index: 2; left: auto; right: auto; bottom: auto; }
+  .zones-nav a { padding: 10px 14px; }
+  .bandeau::after { background: linear-gradient(oklch(0.17 0.035 258 / .55), oklch(0.17 0.035 258 / .82)); }
   .bandeau.simple { padding-top: 130px; }
   .devise { grid-template-columns: 1fr; padding: 64px var(--marge); gap: 32px; }
   .devise div, .devise div + div { padding: 0; border-left: 0; }
