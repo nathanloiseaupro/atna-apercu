@@ -240,6 +240,16 @@ p a, .lien { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 .liens-services { list-style: none; padding: 0; margin-top: 56px; display: flex; flex-wrap: wrap; gap: 12px 36px; }
 .liens-services a { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 
+/* Distinctions et presse */
+.distinctions { display: grid; grid-template-columns: repeat(2, 1fr); gap: 48px; }
+.distinctions .annee { font-family: "Italiana", serif; font-size: 34px; color: var(--cuivre-fonce); }
+.distinctions h3 { margin-top: 6px; font-size: 26px; }
+.distinctions p { margin-top: 10px; color: var(--encre-douce); }
+.presse { list-style: none; padding: 0; border-top: 1px solid var(--encre); }
+.presse li { display: flex; justify-content: space-between; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--filet); }
+.presse span { color: var(--encre-douce); font-size: 15px; }
+.presse a { font-family: "Italiana", serif; font-size: 22px; }
+
 /* Partenaires */
 .partenaires { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 .partenaires div { border-top: 1px solid var(--encre); padding-top: 18px; }
@@ -313,6 +323,7 @@ footer .bas { display: flex; justify-content: space-between; gap: 24px; padding-
   .pays-bande { gap: 22px; letter-spacing: 0.16em; font-size: 13px; }
   .pays-bande a { padding: 10px 0; }
   footer .bas a { padding: 10px 0; }
+  .presse li { flex-direction: column; gap: 6px; }
   footer li a { display: inline-block; padding: 4px 0; }
   /* Le bandeau s'agrandit avec son contenu (titre, texte, onglets) au lieu de le faire passer sous le menu */
   .bandeau { height: auto; min-height: 400px; display: flex; align-items: flex-end; padding: 120px var(--marge) 40px; }
@@ -332,7 +343,7 @@ footer .bas { display: flex; justify-content: space-between; gap: 24px; padding-
   .etapes p { font-size: 14px; }
   .grille-projets { grid-template-columns: 1fr; grid-auto-rows: 280px; }
   .carte { grid-column: auto !important; grid-row: auto !important; }
-  .service-grille, .agence-accueil, .premier-soir, .questions, .contact, form, .fiche, .personnes, .implantations, .offres, .partenaires { grid-template-columns: 1fr; gap: 32px; }
+  .distinctions, .service-grille, .agence-accueil, .premier-soir, .questions, .contact, form, .fiche, .personnes, .implantations, .offres, .partenaires { grid-template-columns: 1fr; gap: 32px; }
   .premier-soir .img { height: 300px; }
   .premier-soir .texte { padding: 40px var(--marge); }
   .galerie { grid-template-columns: 1fr; }
