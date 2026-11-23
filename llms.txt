@@ -17,6 +17,7 @@ Version anglaise : https://nathanloiseaupro.github.io/atna-apercu/en/
 - [Villa, pierre et bois](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-pierre-et-bois/) : Résidence privée, visuel 3d.
 - [Maison en bois](https://nathanloiseaupro.github.io/atna-apercu/projets/maison-en-bois/) : Résidence privée, visuel 3d.
 - [Restaurant de plage](https://nathanloiseaupro.github.io/atna-apercu/projets/restaurant-de-plage/) : Restauration, visuel 3d.
+- [Orava, résidence hôtelière près d’Essaouira](https://nathanloiseaupro.github.io/atna-apercu/projets/orava-residence-hoteliere-essaouira/) : Hôtellerie, visuel 3d.
 - [Arena d’Évreux](https://nathanloiseaupro.github.io/atna-apercu/projets/arena-evreux/) : Équipement sportif, lauréat du concours.
 
 ## Pages utiles
