@@ -2,7 +2,7 @@
 
 > Agence d’architecture et d’architecture d’intérieur fondée en 2000. Projets haut de gamme clés en main en France, au Maroc et à l’international, conduits de l’étude du terrain à la remise des clés, mobilier, linge et vaisselle compris.
 
-Siège : 47 boulevard Carnot, 21000 Dijon. Agence à Liffré, près de Rennes. Agences au Maroc : Marrakech, Agadir, Safi.
+Siège : 47 boulevard Carnot, 21000 Dijon. Agence à Liffré, près de Rennes. Agences au Maroc : Marrakech, Casablanca, Safi.
 Version anglaise : https://nathanloiseaupro.github.io/atna-apercu/en/
 
 ## Services

@@ -52,6 +52,7 @@ p a, .lien { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 .entete nav a.appel { color: var(--ivoire); }
 
 .ouvrir { display: none; }
+.entete nav a.seulement-tel { display: none; }
 .langues { display: flex; gap: 14px; margin-left: -8px; padding-left: 22px; border-left: 1px solid oklch(0.96 0.01 80 / .35); }
 .entete nav .langues a { opacity: .65; border-bottom: 0; }
 .entete nav .langues .bientot { opacity: .45; cursor: default; }
@@ -311,6 +312,7 @@ footer .bas { display: flex; justify-content: space-between; gap: 24px; padding-
   .logo { width: 118px; }
   .entete nav { display: none; position: fixed; inset: 0; background: var(--nuit-2); flex-direction: column; justify-content: center; align-items: center; gap: 26px; font-size: 18px; }
   .entete nav.ouvert { display: flex; }
+  .entete nav a.seulement-tel { display: inline; }
   .ouvrir { display: block; position: relative; z-index: 11; background: none; border: 1px solid oklch(0.96 0.01 80 / .5); padding: 8px 14px; color: inherit; font: inherit; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; cursor: pointer; }
   .une { min-height: 560px; }
   .une::after { background: linear-gradient(oklch(0.18 0.04 258 / .35), oklch(0.18 0.04 258 / .8) 70%); }
