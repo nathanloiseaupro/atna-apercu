@@ -12,13 +12,17 @@ Version anglaise : https://nathanloiseaupro.github.io/atna-apercu/en/
 
 ## Projets
 - [Villa contemporaine, bois et béton](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-contemporaine-bois-et-beton/) : Résidence privée, visuel 3d.
+- [Le Clos des Bruyères, Gravigny](https://nathanloiseaupro.github.io/atna-apercu/projets/le-clos-des-bruyeres-gravigny/) : Logements, réalisé.
 - [Villa à pignon vitré](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-a-pignon-vitre/) : Résidence privée, visuel 3d.
 - [Villa, pierre et enduit](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-pierre-et-enduit/) : Résidence privée, visuel 3d.
-- [Villa, pierre et bois](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-pierre-et-bois/) : Résidence privée, visuel 3d.
+- [Centre de formation, Val-de-Reuil](https://nathanloiseaupro.github.io/atna-apercu/projets/centre-de-formation-val-de-reuil/) : Équipement public, réalisé.
 - [Maison en bois](https://nathanloiseaupro.github.io/atna-apercu/projets/maison-en-bois/) : Résidence privée, visuel 3d.
-- [Restaurant de plage](https://nathanloiseaupro.github.io/atna-apercu/projets/restaurant-de-plage/) : Restauration, visuel 3d.
 - [Orava, résidence hôtelière près d’Essaouira](https://nathanloiseaupro.github.io/atna-apercu/projets/orava-residence-hoteliere-essaouira/) : Hôtellerie, visuel 3d.
 - [Arena d’Évreux](https://nathanloiseaupro.github.io/atna-apercu/projets/arena-evreux/) : Équipement sportif, lauréat du concours.
+- [Piscine Jean-Bouin, Évreux](https://nathanloiseaupro.github.io/atna-apercu/projets/piscine-jean-bouin-evreux/) : Équipement sportif, réalisé.
+- [Lycée hôtelier Edmond-Labbé, Barentin](https://nathanloiseaupro.github.io/atna-apercu/projets/lycee-hotelier-barentin/) : Enseignement, réalisé.
+- [Villa, pierre et bois](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-pierre-et-bois/) : Résidence privée, visuel 3d.
+- [Restaurant de plage](https://nathanloiseaupro.github.io/atna-apercu/projets/restaurant-de-plage/) : Restauration, visuel 3d.
 
 ## Pages utiles
 - [L’agence](https://nathanloiseaupro.github.io/atna-apercu/agence/)

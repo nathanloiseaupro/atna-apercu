@@ -20,8 +20,11 @@
     b.addEventListener('click', function () {
       boutons.forEach(function (x) { x.classList.toggle('actif', x === b); x.setAttribute('aria-pressed', x === b); });
       document.querySelectorAll('.grille-projets .carte').forEach(function (c) {
-        c.classList.toggle('cache', b.dataset.filtre !== 'tous' && c.dataset.type !== b.dataset.filtre);
+        var f = b.dataset.filtre, garde = f === 'tous' || (f === 'realise' ? c.dataset.realise === '1' : c.dataset.type === f);
+        c.classList.toggle('cache', !garde);
       });
+      // Filtrée, la mosaïque perd son motif : on passe en deux colonnes égales
+      document.querySelectorAll('.grille-projets').forEach(function (g) { g.classList.toggle('filtree', b.dataset.filtre !== 'tous'); });
     });
   });
 
