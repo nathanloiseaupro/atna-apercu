@@ -167,7 +167,8 @@ p a, .lien { border-bottom: 1px solid var(--cuivre); padding-bottom: 2px; }
 .fiche dd { font-weight: 600; text-align: right; }
 .galerie { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 64px; }
 .galerie figure { aspect-ratio: 4 / 3; overflow: hidden; }
-.galerie figure:first-child:last-child { grid-column: 1 / -1; aspect-ratio: 16 / 9; }
+/* Nombre impair d'images : la première occupe toute la largeur, les autres vont par deux, sans case vide */
+.galerie figure:first-child:nth-last-child(odd) { grid-column: 1 / -1; aspect-ratio: 16 / 9; }
 .voisins { display: flex; justify-content: space-between; gap: 24px; padding: 40px var(--marge); border-top: 1px solid var(--filet); font-size: 15px; }
 .voisins a:hover { color: var(--cuivre-fonce); }
 
