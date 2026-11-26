@@ -6,7 +6,7 @@ Siège : 47 boulevard Carnot, 21000 Dijon. Agence à Liffré, près de Rennes. A
 Version anglaise : https://nathanloiseaupro.github.io/atna-apercu/en/
 
 ## Services
-- [L’expérience ATNA](https://nathanloiseaupro.github.io/atna-apercu/experience-atna/) : ATNA & Associés conduit votre projet clés en main : terrain, conception, autorisations, construction, aménagement intérieur et extérieur, jusqu’au premier dîner.
+- [L’expérience ATNA](https://nathanloiseaupro.github.io/atna-apercu/experience-atna/) : ATNA & Associés conduit votre projet clés en main : terrain, conception, permis, chantier, intérieur et extérieurs, jusqu’au premier dîner.
 - [Architecture intérieure et décoration](https://nathanloiseaupro.github.io/atna-apercu/architecture-interieure/) : Architecture intérieure et décoration par ATNA & Associés : aménagements sur mesure, mobilier, décoration, linge et vaisselle, pour un lieu prêt à vivre.
 - [Rénovation et extension](https://nathanloiseaupro.github.io/atna-apercu/renovation-extension/) : Rénovation complète, extension ou réaménagement : ATNA & Associés transforme les bâtiments existants avec le même suivi que pour un projet neuf.
 
@@ -17,8 +17,10 @@ Version anglaise : https://nathanloiseaupro.github.io/atna-apercu/en/
 - [Orava, résidence hôtelière près d’Essaouira](https://nathanloiseaupro.github.io/atna-apercu/projets/orava-residence-hoteliere-essaouira/) : Hôtellerie, visuel 3d.
 - [Villa, pierre et bois](https://nathanloiseaupro.github.io/atna-apercu/projets/villa-pierre-et-bois/) : Résidence privée, visuel 3d.
 - [Maison en bois](https://nathanloiseaupro.github.io/atna-apercu/projets/maison-en-bois/) : Résidence privée, visuel 3d.
-- [Restaurant de plage](https://nathanloiseaupro.github.io/atna-apercu/projets/restaurant-de-plage/) : Restauration, visuel 3d.
+- [Séjour, pierre et bois clair](https://nathanloiseaupro.github.io/atna-apercu/projets/sejour-pierre-et-bois-clair/) : Architecture d’intérieur, visuel 3d.
 - [Arena d’Évreux](https://nathanloiseaupro.github.io/atna-apercu/projets/arena-evreux/) : Équipement sportif, lauréat du concours.
+- [Restaurant de plage](https://nathanloiseaupro.github.io/atna-apercu/projets/restaurant-de-plage/) : Restauration, visuel 3d.
+- [Séjour ouvert sur la cuisine](https://nathanloiseaupro.github.io/atna-apercu/projets/sejour-ouvert-sur-la-cuisine/) : Architecture d’intérieur, visuel 3d.
 - [Le Clos des Bruyères, Gravigny](https://nathanloiseaupro.github.io/atna-apercu/projets/le-clos-des-bruyeres-gravigny/) : Logements, réalisé.
 - [Piscine Jean-Bouin, Évreux](https://nathanloiseaupro.github.io/atna-apercu/projets/piscine-jean-bouin-evreux/) : Équipement sportif, réalisé.
 - [Lycée hôtelier Edmond-Labbé, Barentin](https://nathanloiseaupro.github.io/atna-apercu/projets/lycee-hotelier-barentin/) : Enseignement, réalisé.
